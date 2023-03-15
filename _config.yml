@@ -32,7 +32,7 @@ github_username:  timadinorth
 # Build settings
 theme: minima
 plugins:
-	- jekyll-seo-tag
+  - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
