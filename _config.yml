@@ -30,7 +30,7 @@ twitter_username: timadinorth
 github_username:  timadinorth
 
 # Build settings
-theme: minima
+theme: modernist
 plugins:
   - jekyll-seo-tag
 # Exclude from processing.
@@ -53,6 +53,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 permalink: /:categories/:year/:month/:day/:title/
+lsi: false
+safe: true
+incremental: false
+highlighter: rouge
 gist:
   noscript: false
-highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
